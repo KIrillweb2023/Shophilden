@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/node_modules
-=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -8,7 +5,9 @@
 /.pnp
 .pnp.js
 /dist
-
+/gulpfile.js
+/package-lock.json
+/package.json
 # testing
 /coverage
 
@@ -25,4 +24,3 @@
 # npm-debug.log*
 # yarn-debug.log*
 # yarn-error.log*
->>>>>>> 36097e61fb9d3ef2cef24bb3c60463b4a79b39d8

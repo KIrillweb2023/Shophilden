@@ -7,32 +7,15 @@
 @import "./block/slider";
 @import "./block/button";
 
-<<<<<<< HEAD
-
-=======
-@import "./media/card";
-@import "./media/footer";
-@import "./media/header";
-@import "./media/map";
-@import "./media/modal";
-@import "./media/slider";
-@import "./media/button";
 
 @import "./variables/colors";
-
-@import "./block/font/font";
->>>>>>> 36097e61fb9d3ef2cef24bb3c60463b4a79b39d8
 
 
 * {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-=======
     box-sizing: border-box; 
->>>>>>> 36097e61fb9d3ef2cef24bb3c60463b4a79b39d8
+    font-family: "Roboto", sans-serif;
 }
 
 .container {

@@ -1,9 +1,10 @@
 .footer{
     &__wrapper{
         display: grid;
-        grid-template-columns: repeat(auto-fill, 186px);
+        grid-template-columns: repeat(3, 186px) repeat(3, 85px) 145px;
         grid-template-rows: repeat(1, 138px);
         column-gap: 40px;
+        justify-content: space-between;
         &_item{
             a{
                 cursor: pointer;
@@ -36,7 +37,24 @@
             flex-direction: column;
             align-items: flex-end;
             row-gap: 15px;
+            &-messanger{
+                display: flex;
+                column-gap: 10px;
+                
+                a{
+                    text-decoration: none;           
+                }
 
+            }
+            &-phone{
+                color: #5E5E5E;
+                font-weight: 500;
+                text-decoration: none;
+                font-size: 16px;
+                &:hover{
+                    color: #B19280;  
+                }
+            }
         }
     }
 }

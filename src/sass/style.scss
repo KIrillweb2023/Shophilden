@@ -1,3 +1,4 @@
+@import "./font/font";
 @import "./block/card";
 @import "./block/footer";
 @import "./block/header";
@@ -6,15 +7,6 @@
 @import "./block/slider";
 @import "./block/button";
 
-@import "./media/card";
-@import "./media/footer";
-@import "./media/header";
-@import "./media/map";
-@import "./media/modal";
-@import "./media/slider";
-@import "./media/button";
-
-
 
 
 
@@ -22,12 +14,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
     display: block;
-    width: 75%;
+    width: 76%;
     margin: 0 auto;
+}
+
+body{
+    background-color: #F9F9F9;
 }
 
  

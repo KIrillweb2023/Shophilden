@@ -1,0 +1,42 @@
+.footer{
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 186px);
+        grid-template-rows: repeat(1, 138px);
+        column-gap: 40px;
+        &_item{
+            a{
+                cursor: pointer;
+                text-decoration: none;
+                &:hover{
+                    color: #949494;
+                }
+            }
+            &-title{
+                font-size: 14px;
+                color: #5E5E5E;
+                font-weight: 500;
+            }
+            &-links{
+                display: flex;
+                flex-direction: column;
+                margin-top: 15px;
+                row-gap: 15px;
+                a{
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #5E5E5E;
+                    font-weight: 400;
+                   
+                }
+            }
+        }
+        &_attribute{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 15px;
+
+        }
+    }
+}

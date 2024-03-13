@@ -1,0 +1,1 @@
+{"version":3,"file":"script.js","mappings":";;;;;AAAAA,QAAQ,CAACC,gBAAgB,CAAC,kBAAkB,EAAE,YAAK;EAC/CC,OAAO,CAACC,GAAG,CAAC,OAAO,CAAC;AACxB,CAAC,CAAC,C","sources":["webpack://uber/./src/js/main.js"],"sourcesContent":["document.addEventListener('DOMContentLoaded', ()=> {\r\n    console.log('hello');\r\n});"],"names":["document","addEventListener","console","log"],"sourceRoot":""}

@@ -1,0 +1,31 @@
+.card{
+    &__title{
+        color: #404040;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+        grid-template-rows: repeat(1, 153px) ;
+        gap: 20px;
+        margin-top: 30px;
+        &_item{
+            background-color: #fff;
+            padding: 22px 24px;
+            border-radius: 10px;
+            &-title{
+                color: #404040;
+                margin-top: 5px;
+                font-family: "Nunito", sans-serif;
+            }
+            &-descr{
+                color: #5e5e5e;
+                margin-top: 5px;
+                font-family: "Nunito", sans-serif;
+              
+            }
+        }
+    }
+}

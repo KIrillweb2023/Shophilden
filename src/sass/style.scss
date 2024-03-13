@@ -1,0 +1,33 @@
+@import "./block/card";
+@import "./block/footer";
+@import "./block/header";
+@import "./block/map";
+@import "./block/modal";
+@import "./block/slider";
+@import "./block/button";
+
+@import "./media/card";
+@import "./media/footer";
+@import "./media/header";
+@import "./media/map";
+@import "./media/modal";
+@import "./media/slider";
+@import "./media/button";
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+ 

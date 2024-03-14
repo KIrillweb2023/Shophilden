@@ -1,11 +1,15 @@
 .footer{
+    height: auto;
+    padding: 20px;
     &__wrapper{
         display: grid;
         grid-template-columns: repeat(3, 186px) repeat(3, 85px) 145px;
-        grid-template-rows: repeat(1, 138px);
+        grid-template-rows: repeat(1, 145px);
         column-gap: 40px;
         justify-content: space-between;
+        margin-bottom: 20px;
         &_item{
+
             a{
                 cursor: pointer;
                 text-decoration: none;
@@ -36,7 +40,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            row-gap: 15px;
+            row-gap: 25px;
             &-messanger{
                 display: flex;
                 column-gap: 10px;
@@ -55,6 +59,14 @@
                     color: #B19280;  
                 }
             }
+        }
+    }
+    &__policy{
+        font-size: 16px;
+        color: #B19280;
+    
+        &:hover{
+            text-decoration: none;
         }
     }
 }

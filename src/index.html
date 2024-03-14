@@ -17,7 +17,33 @@
                 </div>
                 <nav class="header__block_nav">
                     <ul class="header__block_list">
-                        <li class="header__block_list-item"><a href="#">Услуги</a></li>
+                        <li class="header__block_list-item">
+                            <a href="#">Услуги</a>
+
+                            <div class="block">
+                                <ul class="block__ul">
+                                    <li class="block__ul_li">
+                                        <p class="block__ul_li-text">Дизайн интерьера</p> 
+                                        <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.57574 4.42426L1.02426 6.97574C0.646285 7.35371 0 7.08601 0 6.55147L0 1.44853C0 0.913985 0.646284 0.646284 1.02426 1.02426L3.57574 3.57574C3.81005 3.81005 3.81005 4.18995 3.57574 4.42426Z" fill="#5E5E5E"/>
+                                        </svg>
+                                    </li>
+                                    <li class="block__ul_li">
+                                        <p class="block__ul_li-text">Изготовление мебели</p>
+                                        <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.57574 4.42426L1.02426 6.97574C0.646285 7.35371 0 7.08601 0 6.55147L0 1.44853C0 0.913985 0.646284 0.646284 1.02426 1.02426L3.57574 3.57574C3.81005 3.81005 3.81005 4.18995 3.57574 4.42426Z" fill="#5E5E5E"/>
+                                        </svg>  
+                                    </li>
+                                    <li class="block__ul_li">
+                                        <p class="block__ul_li-text">Дополнительные услуги</p>
+                                        <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.57574 4.42426L1.02426 6.97574C0.646285 7.35371 0 7.08601 0 6.55147L0 1.44853C0 0.913985 0.646284 0.646284 1.02426 1.02426L3.57574 3.57574C3.81005 3.81005 3.81005 4.18995 3.57574 4.42426Z" fill="#5E5E5E"/>
+                                        </svg> 
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </li>
                         <li class="header__block_list-item"><a href="#">О компании</a></li>
                         <li class="header__block_list-item"><a href="#">Отзывы</a></li>
                         <li class="header__block_list-item"><a href="#">Контакты</a></li>
@@ -33,8 +59,39 @@
         </div>
     
     </header>
+
+    <main class="slider">
+        <div class="container">
+            <div class="slider__block">
+                <div class="slider__block_arrow">
+                    <img src="./icons/arrow-left.svg" alt="" class="left">
+                    <img src="./icons/arrow-left.svg" alt="" style="transform: rotate(180deg);" class="right">
+                </div>
+
+                <div class="slider__block_info">
+
+
+                    <h2 class="slider__block_info-title">
+                        <span>COMHOME </span> – создадим мебель вашей мечты
+                    </h2>
+                    <p class="slider__block_info-subtitle">Эксклюзивная мебель любой сложности полностью по вашему вкусу</p>
+                    <ul class="slider__block_info-list">
+                        <li class="slider__block_info-list--li">Индивидуальный дизайн</li>
+                        <li class="slider__block_info-list--li">Высокое качество материалов</li>
+                        <li class="slider__block_info-list--li">Гарантия на изделия</li>
+                    </ul>
+                    <button class="slider__block_info-btn">Оставить заявку</button>
+                    <img src="./img/slider-components/slider-two.png" alt="" class="slider__block_info-image">
+                </div>
     
-    <div class="card">
+    
+            </div>
+        </div>
+
+     
+    </main>
+    
+    <section class="card">
         <div class="container">
             <h3 class="card__title">Преимущества работы с нами</h3>
 
@@ -63,7 +120,43 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+    <section class="map">
+        <div class="map__wrapper">
+           <h4 class="map__wrapper_title">Контакты</h4>
+           <div class="map__wrapper_block">
+               <img src="./icons/map-components/phone.svg" alt="icon-1">
+               <div class="map__wrapper_block-text">
+                   <ul><li class="map__wrapper_block-text-phone"><a href="tel:+79998887766">+7 (999) 888-77-66</a></li></ul>
+                   <span class="map__wrapper_block-text-order">Заказать звонок</span>
+               </div>
+           </div>
+
+           <div class="map__wrapper_block">
+               <img src="./icons/map-components/location.svg" alt="icon-1">
+               <div class="map__wrapper_block-text">
+                 <p class="map__wrapper_block-text-descr">г. Москва, Девяткин переулок, д. 4</p>
+               </div>
+           </div>
+
+           <div class="map__wrapper_block">
+               <img src="./icons/map-components/email.svg" alt="icon-1">
+               <div class="map__wrapper_block-text">
+                   <p class="map__wrapper_block-text-descr">info@mail.ru</p>
+               </div>
+           </div>
+
+           <div class="map__wrapper_block">
+               <img src="./icons/map-components/time.svg" alt="icon-1">
+               <div class="map__wrapper_block-text">
+                   <p class="map__wrapper_block-text-descr">Будни с 9:00 до 18:00</p>
+               </div>
+           </div>
+        </div>
+       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa567e38627c0c73a743f1973c2f06950026935ae6bfc5bd8d34b003f3255a200&amp;source=constructor" width="100%" height="429" frameborder="0"></iframe>
+   </section>
 
 
 
@@ -131,6 +224,8 @@
                    </div>
                 </div>
             </div>
+
+            <a href="#" class="footer__policy">Политика конфиденциальности</a>
         </div>
     </footer>
   
